@@ -1,5 +1,5 @@
 import React from 'react';
-import home from './pages/home';
+import Home from './pages/home';
 
 import './App.css';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -24,7 +24,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<home />} /> {/* Replace the element with the page you are testing */}
+          <Route path='/' element={<Home />} /> {/* Replace the element with the page you are testing */}
        
          
         </Routes>
