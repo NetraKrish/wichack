@@ -1,13 +1,12 @@
 
 import React from 'react';
-
+import './home.css';
 
 function Home() {
 
   return (
-    <div>
-     <h1>Hello World
-        </h1>
+    <div className='Home'>
+     jdbfldskjbvdkjzvnkxdn
 
     </div>
   )
